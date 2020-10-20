@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Demo Shop1</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <!-- CSS -->
+        <!-- webpack.mix.jsに使用するcssファイルを記載する -->
+        <!-- public/css/all.cssを読み込む(パス public/は省略して指定する) -->
+        <link rel="stylesheet" type="text/css" href="css/all.css">
 
         <!-- Styles -->
         <style>
@@ -81,18 +85,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Demo Shop1
                 </div>
 
+                <p class="sentence1">文章をここに記載</p>
+
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">Get Started</a>
                 </div>
             </div>
         </div>
