@@ -1,6 +1,11 @@
 .sentence1 {
     color: blue;
 }
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
 
 /*メディアクエリ*/
 /*768px以上*/
