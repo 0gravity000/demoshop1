@@ -35,6 +35,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Link</a>
                                 </li>
+                            </ul>
+                            <ul class="navbar-nav">
                                 @if (Route::has('login'))
                                     @auth
                                         <li class="nav-item">
