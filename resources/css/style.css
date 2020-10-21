@@ -1,10 +1,37 @@
 .sentence1 {
     color: blue;
 }
-.top-right {
-    position: absolute;
-    right: 10px;
-    top: 18px;
+
+.footer p {
+    color: white;
+    background-color: #008080;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+div.content2 {
+    padding: 0rem 1rem;
+}
+
+div.content2 div.col-sm, div.content2 div.col-md, div.content2 div.col-lg,  div.content2 div.col-xl {
+    padding: 0rem 0rem;
+}
+
+div.content2 li.showmore{
+    color: #008080;
+    text-align: right;
+}
+
+div.content3 p.showmore{
+    color: #008080;
+    text-align: right;
+}
+
+div.content3 td {
+    padding: 0.5rem 0.5rem;
+    border-style: none none dotted none; 
+    border-color: #d3d3d3; 
+    border-width: 2px;
 }
 
 /*メディアクエリ*/

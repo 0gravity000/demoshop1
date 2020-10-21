@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <div class="row header">
                 <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #008080;">
                         <a class="navbar-brand" href="/">Demo Shop1（ロゴ）</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -60,41 +60,41 @@
                 <div class="col-4">
                     <h1>おすすめ商品</h1>
                     <div id="carousel-1" class="carousel slide">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-1" data-slide-to="1"></li>
-                        <li data-target="#carousel-1" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img class="d-block w-100" src="imgs/item_001.jpg" alt="First slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-1" data-slide-to="1"></li>
+                            <li data-target="#carousel-1" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="imgs/item_001.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="imgs/item_002.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="imgs/item_003.jpg" alt="Third slide">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="imgs/item_002.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                        <img class="d-block w-100" src="imgs/item_003.jpg" alt="Third slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="row content2">
+            <div class="row">
                 <div class="col">
                     <h1>カテゴリ</h1>
                 </div>
             </div>
             <div class="row content2">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-sm">
+                    <div class="card">
                         <div class="card-header">
                             生活雑貨
                         </div>
@@ -102,12 +102,12 @@
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
-                            <li class="list-group-item">もっと見る</li>
+                            <li class="list-group-item showmore">もっと見る</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md">
+                    <div class="card">
                         <div class="card-header">
                             ルームウェア
                         </div>
@@ -115,12 +115,12 @@
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
-                            <li class="list-group-item">もっと見る</li>
+                            <li class="list-group-item showmore">もっと見る</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-lg">
+                    <div class="card">
                         <div class="card-header">
                             食器
                         </div>
@@ -128,12 +128,12 @@
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
-                            <li class="list-group-item">もっと見る</li>
+                            <li class="list-group-item showmore">もっと見る</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-xl">
+                    <div class="card">
                         <div class="card-header">
                             寝具
                         </div>
@@ -141,7 +141,7 @@
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
-                            <li class="list-group-item">もっと見る</li>
+                            <li class="list-group-item showmore">もっと見る</li>
                         </ul>
                     </div>
                 </div>
@@ -152,22 +152,22 @@
                     <table>
                     <tr>
                         <td>2020/10/01</td>
-                        <td>お知らせ</td>
+                        <td>送料無料のお買い上げ合計金額変更のお知らせ</td>
                     </tr>
                     <tr>
-                        <td>2020/10/01</td>
-                        <td>お知らせ</td>
+                        <td>2020/10/02</td>
+                        <td>お問い合わせについて</td>
                     </tr>
                     <tr>
-                        <td>2020/10/01</td>
-                        <td>お知らせ</td>
+                        <td>2020/10/03</td>
+                        <td>店舗営業時間変更のお知らせとご来店時のお願い</td>
                     </tr>
                     <tr>
-                        <td>2020/10/01</td>
-                        <td>お知らせ</td>
+                        <td>2020/10/04</td>
+                        <td>コロナウィルス対策について</td>
                     </tr>
                     </table>
-                    <p>もっと見る</p>
+                    <p class="showmore">もっと見る</p>
 
                 </div>
                 <div class="col">
@@ -178,8 +178,7 @@
             </div>
             <div class="row footer">
                 <div class="col">
-                    <h1>フッター</h1>
-                    copyright (c) demo shop1 Inc. all rights reserved.
+                    <p>copyright (c) demo shop1 Inc. all rights reserved.</p>
                 </div>
             </div>
         </div>
