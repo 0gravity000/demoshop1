@@ -96,48 +96,52 @@
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-header">
-                            Featured
+                            生活雑貨
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">もっと見る</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-header">
-                            Featured
+                            ルームウェア
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">もっと見る</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-header">
-                            Featured
+                            食器
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">もっと見る</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <div class="card-header">
-                            Featured
+                            寝具
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Cras justo odio</li>
                             <li class="list-group-item">Dapibus ac facilisis in</li>
                             <li class="list-group-item">Vestibulum at eros</li>
+                            <li class="list-group-item">もっと見る</li>
                         </ul>
                     </div>
                 </div>
@@ -145,18 +149,37 @@
             <div class="row content3">
                 <div class="col">
                     <h1>お知らせ</h1>
-                    </div>
+                    <table>
+                    <tr>
+                        <td>2020/10/01</td>
+                        <td>お知らせ</td>
+                    </tr>
+                    <tr>
+                        <td>2020/10/01</td>
+                        <td>お知らせ</td>
+                    </tr>
+                    <tr>
+                        <td>2020/10/01</td>
+                        <td>お知らせ</td>
+                    </tr>
+                    <tr>
+                        <td>2020/10/01</td>
+                        <td>お知らせ</td>
+                    </tr>
+                    </table>
+                    <p>もっと見る</p>
+
                 </div>
-            <div class="row content3">
                 <div class="col">
-                </div>
-                <div class="col">
-                2 of 2
+                    <h1>店舗情報</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.2010520583904!2d139.76524402935442!3d35.68122508769894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1603252916389!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
                 </div>
             </div>
             <div class="row footer">
                 <div class="col">
                     <h1>フッター</h1>
+                    copyright (c) demo shop1 Inc. all rights reserved.
                 </div>
             </div>
         </div>
