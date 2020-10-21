@@ -55,13 +55,10 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col">
-                </div>
             </div>
             <div class="row content1">
                 <div class="col-4">
-                    <p class="sentence1"><a href="/">内容1</a></p>
-
+                    <h1>おすすめ商品</h1>
                     <div id="carousel-1" class="carousel slide">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
@@ -88,34 +85,78 @@
                         <span class="sr-only">Next</span>
                     </a>
                     </div>
-
                 </div>
             </div>
             <div class="row content2">
                 <div class="col">
-                    <p class="sentence1"><a href="/">内容2</a></p>
+                    <h1>カテゴリ</h1>
+                </div>
+            </div>
+            <div class="row content2">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col">
-                2 of 3
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col">
-                3 of 3
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="row content3">
                 <div class="col">
-                    <p class="sentence1"><a href="/">内容3</a></p>
+                    <h1>お知らせ</h1>
+                    </div>
+                </div>
+            <div class="row content3">
+                <div class="col">
                 </div>
                 <div class="col">
-                2 of 3
-                </div>
-                <div class="col">
-                3 of 3
+                2 of 2
                 </div>
             </div>
             <div class="row footer">
                 <div class="col">
-                    <p class="sentence1">フッター</p>
+                    <h1>フッター</h1>
                 </div>
             </div>
         </div>
