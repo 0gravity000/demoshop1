@@ -18,39 +18,64 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row header">
                 <div class="col">
-                    Demo Shop1
+                    <a href="/">Demo Shop1（ロゴ）</a>
+                </div>
+                <div class="col">
                     <div class="flex-center position-ref full-height">
-                    @if (Route::has('login'))
-                        <div class="top-right links">
-                            @auth
-                                <a href="{{ url('/home') }}">Home</a>
-                            @else
-                                <a href="{{ route('login') }}">Login</a>
+                        @if (Route::has('login'))
+                            <div class="top-right links">
+                                @auth
+                                    <a href="{{ url('/home') }}">Home</a>
+                                @else
+                                    <a href="{{ route('login') }}">Login</a>
 
-                                @if (Route::has('register'))
-                                    <a href="{{ route('register') }}">Register</a>
-                                @endif
-                            @endauth
-                        </div>
-                    @endif
+                                    @if (Route::has('register'))
+                                        <a href="{{ route('register') }}">Register</a>
+                                    @endif
+                                @endauth
+                            </div>
+                        @endif
                     </div>
                 </div>
-                <div class="col">
-                2 of 2
-                </div>
             </div>
-            <div class="row">
+            <div class="row content1">
                 <div class="col">
-                    <p class="sentence1">文章をここに記載</p>
-                    <a href="https://laravel.com/docs">Get Started</a>
+                    <p class="sentence1"><a href="/">内容1</a></p>
                 </div>
                 <div class="col">
                 2 of 3
                 </div>
                 <div class="col">
                 3 of 3
+                </div>
+            </div>
+            <div class="row content2">
+                <div class="col">
+                    <p class="sentence1"><a href="/">内容2</a></p>
+                </div>
+                <div class="col">
+                2 of 3
+                </div>
+                <div class="col">
+                3 of 3
+                </div>
+            </div>
+            <div class="row content3">
+                <div class="col">
+                    <p class="sentence1"><a href="/">内容3</a></p>
+                </div>
+                <div class="col">
+                2 of 3
+                </div>
+                <div class="col">
+                3 of 3
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col">
+                    <p class="sentence1">フッター</p>
                 </div>
             </div>
         </div>
